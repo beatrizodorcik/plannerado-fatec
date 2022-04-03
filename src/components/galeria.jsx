@@ -5,10 +5,9 @@ export const Gallery = (props) => {
     <div id='portfolio' className='text-center'>
       <div className='container'>
         <div className='section-title'>
-          <h2>Gallery</h2>
+          <h2>Galeria</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
+            Veja alguns dos planners compartilhados na nossa rede!
           </p>
         </div>
         <div className='row'>
@@ -19,7 +18,7 @@ export const Gallery = (props) => {
                   <Image title={d.title} largeImage={d.largeImage} smallImage={d.smallImage} />
                 </div>
               ))
-              : 'Loading...'}
+              : 'Carregando...'}
           </div>
         </div>
       </div>

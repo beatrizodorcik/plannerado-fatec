@@ -10,13 +10,13 @@ export const Navigation = (props) => {
             data-target='#bs-example-navbar-collapse-1'
           >
             {' '}
-            <span className='sr-only'>Toggle navigation</span>{' '}
+            <span className='sr-only'>Toggle de navegação</span>{' '}
             <span className='icon-bar'></span>{' '}
             <span className='icon-bar'></span>{' '}
             <span className='icon-bar'></span>{' '}
           </button>
           <a className='navbar-brand page-scroll' href='#page-top'>
-            React Landing Page
+            Plannerado
           </a>{' '}
         </div>
 
@@ -27,37 +27,32 @@ export const Navigation = (props) => {
           <ul className='nav navbar-nav navbar-right'>
             <li>
               <a href='#features' className='page-scroll'>
-                Features
+                O que fazemos
               </a>
             </li>
             <li>
               <a href='#about' className='page-scroll'>
-                About
-              </a>
-            </li>
-            <li>
-              <a href='#services' className='page-scroll'>
-                Services
+                Sobre nós
               </a>
             </li>
             <li>
               <a href='#portfolio' className='page-scroll'>
-                Gallery
-              </a>
-            </li>
-            <li>
-              <a href='#testimonials' className='page-scroll'>
-                Testimonials
+                Galeria
               </a>
             </li>
             <li>
               <a href='#team' className='page-scroll'>
-                Team
+                Nosso time
               </a>
             </li>
             <li>
               <a href='#contact' className='page-scroll'>
-                Contact
+                Contato
+              </a>
+            </li>
+            <li>
+              <a href='#cadastro' className='page-scroll'>
+                Entre ou se cadastre
               </a>
             </li>
           </ul>
